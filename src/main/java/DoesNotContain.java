@@ -17,7 +17,7 @@ public class DoesNotContain {
     public boolean arrayDoesNotContain(int[] arr, int target){
         // boolean doesContain = true;
         for(int x: arr){
-            if(x == target){
+            if(x == target){ 
                return false;
             } 
         }
